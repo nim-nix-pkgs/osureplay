@@ -11,7 +11,6 @@
   inputs.src-osureplay-v0_0_3.ref   = "refs/tags/v0.0.3";
   inputs.src-osureplay-v0_0_3.owner = "Yardanico";
   inputs.src-osureplay-v0_0_3.repo  = "nim-osureplay";
-  inputs.src-osureplay-v0_0_3.dir   = "";
   inputs.src-osureplay-v0_0_3.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
